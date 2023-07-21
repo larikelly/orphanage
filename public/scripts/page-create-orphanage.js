@@ -1,4 +1,4 @@
-const map = L.map('mapid').setView([-3.7933145, -38.5196152], 15)
+const map = L.map('map').setView([-3.7933145, -38.5196152], 15)
 
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map)
 

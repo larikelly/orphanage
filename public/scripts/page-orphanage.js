@@ -5,7 +5,7 @@ const options = {
   scrollWheelZoom: false,
   zoomControl: false
 }
-const map = L.map('mapid', options).setView([-27.220555, -49.644444], 15)
+const map = L.map('map', options).setView([-27.220555, -49.644444], 15)
 
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
 
